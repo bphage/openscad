@@ -17,11 +17,11 @@ module rounded_regular_triangle(a, radius) {
 module sector60(r) {
     difference() {
         circle(r);
-        
+
         rotate([0, 0, -30]) translate([0, 2 * r, 0])
             square(4 * r, true);
-        
-        rotate([0, 0, 30]) translate([0, -2 * r, 0]) 
+
+        rotate([0, 0, 30]) translate([0, -2 * r, 0])
             square(4 * r, true);
     }
 }
